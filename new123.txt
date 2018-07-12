@@ -105,6 +105,48 @@ echo $PWD
 	2)global varibales
 
  1)local variables:
+ ex:
+ echo $0  -> current shell
+ #a=10 
+ echo a
+ echo $a
+ 
+ #sh - changing shell 
+ sh -> echo $a
+ no output, so a is local variable
+ echo $a[come to bash shell]
+ 
+ 
+ 2)global varibles:
+  It can be accessed by any other shell in the machine.
+ exp: b=devops
+ export b
+ echo $b
+ #sh
+ #echo $b
+  
+  
+  
+1)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 
